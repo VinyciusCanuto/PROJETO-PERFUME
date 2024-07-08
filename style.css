@@ -1,0 +1,81 @@
+
+.perfume-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(30, 38%, 92%);
+    height: 610px;
+
+}
+
+.all-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin: 10px;
+    width: 500px;
+    height: 300px;
+    gap: 20px;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.perfume-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.perfume-image{
+    width: 200px;
+    height: 300px;
+    border-radius: 10px 0 0 10px;
+}
+
+.perfume-info{
+    background-color: #fff;
+    height: 300px;
+    border-radius: 0 10px 10px 0;
+}
+
+.titulo{
+    font-size: 14px;
+    letter-spacing: 5px;
+}
+
+.perfume-description{
+    font-size: 14px;
+}
+
+.precos {
+    display: flex;
+    gap: 55px;
+}
+
+.perfume-preco-atual {
+    font-size: 25px;
+    margin: 10px;
+    color: hsl(158, 36%, 37%);
+}
+
+.perfume-preco-anterior {
+    font-size: 15px;
+    text-decoration: line-through;
+    color: #333;
+}
+
+.perfume-button {
+    cursor: pointer;
+    color: #fff;
+    font-size: 16px;
+    margin: 10px;
+    width: 250px;
+    height: 35px;
+    background-color: green;
+    border: none;
+    border-radius: 10px;
+}
+
+.perfume-button:hover {
+    background-color: hsl(158, 36%, 37%);
+}
