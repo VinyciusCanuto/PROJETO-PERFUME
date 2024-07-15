@@ -1,5 +1,5 @@
-#Projeto Perfume
+Projeto Perfume
 
-##About
+About:
 
-###Esse projeto foi feito com as tecnologias: (HTML, CSS)
+Esse projeto foi feito com as tecnologias: (HTML, CSS)
